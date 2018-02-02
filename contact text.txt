@@ -1,0 +1,48 @@
+<!docotype html>
+<html lang="en">
+<head>
+<meta charset="uft-8">
+<title> HTML CSS </title>
+<meta name="description" content="whatever we want">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--Note to self create content in the body-->
+<h1>Contact Us</h1>
+<ul>
+<li><a href="index.html"> Home</a></li>
+<li> <a href="A.html">About</a> </li>
+<li> <a href="contact.html">Contact</a></li>
+</ul>
+<form action="A.html" method="post" target="_blank">
+Username:<br>
+<input type="text" name="username" placeholder="enter a name here" required><br>
+Email:<br>
+<input type="email" name="email" placeholder="myemail@newmail.com"><br>
+
+Password:<br>
+<input type="password" name="password"><br>
+Age:<br>
+<input type="number" name="myage"><br>
+Image<input type="file" name="myfile"><br>
+<textarea name="moreinfo"> Here is the content </textarea>
+<br>
+<input type="radio" name="radiomy" value="yes"> yes |
+<input type="radio" name="radiomy" value="no"> no<br>
+<select name="mysel">
+<option value="1">one</option>
+<option value="2">two</option>
+<option value="3">three</option>
+</select>
+<input type="checkbox" name="mycheck1" value="checked 1"> Checkme<br>
+<input type="checkbox" name="mycheck1" value="checked 2"> Checkme<br>
+<input type="color" name="mycolor">Color<br>
+<input type="date" name="mydate">Date<br> 
+
+
+<input type="submit" value="Enter ">
+</form>
+
+
+</body>
+</html>
